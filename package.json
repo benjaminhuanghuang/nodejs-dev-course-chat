@@ -4,7 +4,10 @@
   "description": "## Reference - The Complete Node.js Developer Course (2nd Edition)     - https://www.udemy.com/the-complete-nodejs-developer-course-2/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "8.10.0"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/benjaminhuanghuang/nodejs-dev-course-chat/issues"
   },
-  "homepage": "https://github.com/benjaminhuanghuang/nodejs-dev-course-chat#readme"
+  "homepage": "https://github.com/benjaminhuanghuang/nodejs-dev-course-chat#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
 }
