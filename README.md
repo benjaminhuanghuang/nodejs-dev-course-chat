@@ -12,3 +12,5 @@
     npm init -y
     
 ```
+
+## Run
